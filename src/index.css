@@ -1,0 +1,29 @@
+* {
+  text-transform: capitalize;
+  margin: 0;
+
+  padding: 0;
+}
+.navbar {
+  background-color: #070d1a;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+}
+
+.Nav-Item {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  left: 350px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
