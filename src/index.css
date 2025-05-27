@@ -669,7 +669,7 @@ body {
 .services {
   background-color: #070d1a;
   width: 100vw;
-  height: 1400px;
+  height: 1200px;
 }
 .titleservices {
   color: white;
@@ -860,9 +860,8 @@ body {
   border-radius: 5px;
   position: relative;
   top: 50px;
-  left: 20px; 
-   transition: all 0.5s ease-in-out;
-
+  left: 20px;
+  transition: all 0.5s ease-in-out;
 }
 #services-card1-icon {
   font-size: 45px;
@@ -870,8 +869,7 @@ body {
   position: relative;
   left: 15.5px;
   top: 7px;
-    transition: all 0.5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
 }
 
 .services-card1-title {
@@ -893,7 +891,7 @@ body {
 
 .services-Card1:hover {
   transform: translateY(-20px);
-  .services-card1-icon-box{
+  .services-card1-icon-box {
     background-color: #10a3d7;
   }
   #services-card1-icon {
@@ -916,9 +914,8 @@ body {
   border-radius: 5px;
   position: relative;
   top: 50px;
-  left: 20px; 
-   transition: all 0.5s ease-in-out;
-
+  left: 20px;
+  transition: all 0.5s ease-in-out;
 }
 #services-card2-icon {
   font-size: 45px;
@@ -926,8 +923,7 @@ body {
   position: relative;
   left: 14px;
   top: 8px;
-    transition: all 0.5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
 }
 
 .services-card2-title {
@@ -949,7 +945,7 @@ body {
 
 .services-Card2:hover {
   transform: translateY(-20px);
-  .services-card2-icon-box{
+  .services-card2-icon-box {
     background-color: #10a3d7;
   }
   #services-card2-icon {
@@ -971,9 +967,8 @@ body {
   border-radius: 5px;
   position: relative;
   top: 50px;
-  left: 20px; 
-   transition: all 0.5s ease-in-out;
-
+  left: 20px;
+  transition: all 0.5s ease-in-out;
 }
 #services-card3-icon {
   font-size: 40px;
@@ -981,8 +976,7 @@ body {
   position: relative;
   left: 6.5px;
   top: 9px;
-    transition: all 0.5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
 }
 
 .services-card3-title {
@@ -1004,7 +998,7 @@ body {
 
 .services-Card3:hover {
   transform: translateY(-20px);
-  .services-card3-icon-box{
+  .services-card3-icon-box {
     background-color: #10a3d7;
   }
   #services-card3-icon {
@@ -1026,9 +1020,8 @@ body {
   border-radius: 5px;
   position: relative;
   top: 50px;
-  left: 20px; 
-   transition: all 0.5s ease-in-out;
-
+  left: 20px;
+  transition: all 0.5s ease-in-out;
 }
 #services-card4-icon {
   font-size: 45px;
@@ -1036,8 +1029,7 @@ body {
   position: relative;
   left: 10.5px;
   top: 7px;
-    transition: all 0.5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
 }
 
 .services-card4-title {
@@ -1059,7 +1051,7 @@ body {
 
 .services-Card4:hover {
   transform: translateY(-20px);
-  .services-card4-icon-box{
+  .services-card4-icon-box {
     background-color: #10a3d7;
   }
   #services-card4-icon {
@@ -1067,5 +1059,136 @@ body {
   }
 }
 
+.features {
+  width: 100vw;
+  height: 1500px;
+  background-color: #070d1a;
+}
+
+.titlefeatures {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 47%;
+}
+.arkafeatures {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(51, 51, 59);
+  position: relative;
+  top: 50px;
+  left: 44%;
+}
+
+.featuresalltext {
+  width: 570px;
+  position: relative;
+  top: 100px;
+  left: 350px;
+}
+
+.featurestitle2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.featurestext1 {
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 40px;
+  font-size: 17px;
+}
+
+.featuretext2 {
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 80px;
+  font-size: 17px;
+}
+.featuretext3 {
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 120px;
+  font-size: 17px;
+}
+.featuretext4 {
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 160px;
+  font-size: 17px;
+}
+
+.shild-div {
+  background: rgba(16, 163, 215, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  left: 350px;
+  top: 305px;
+}
+#shild-icon {
+  font-size: 30px;
+  position: relative;
+  top:10px;
+  left: 9px;
+}
+.shild-title{
+  color: white;
+  position: relative;
+  top: 250px;
+  left: 420px;
+  font-size:28px;
+  font-family: sans-serif;
+
+}
 
 
+.shild-text{
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 252px;
+  font-size: 17px;
+  left: 420px;
+}
+.clock-div {
+  background: rgba(16, 163, 215, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  left:600px;
+  top: 210px;
+}
+#clock-icon {
+  font-size: 30px;
+  position: relative;
+  top:10px;
+  left: 10px;
+}
+.clock-title{
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 680px;
+  font-size:28px;
+  font-family: sans-serif;
+
+}
+
+
+.clock-text{
+  color: rgb(185, 185, 185);
+  font-family: sans-serif;
+  position: relative;
+  top: 162px;
+  font-size: 17px;
+  left: 690px;
+}
