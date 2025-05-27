@@ -234,244 +234,428 @@
   left: 350px;
 }
 
-.inPhoto{
-    width: 575px;
-    background-color: #10a3d7;
-    height:125px;
-    border-radius: 10px;
-    position: absolute;
-    top: 1600px;
-    left: 390px;
-    box-shadow: 0px 0px 30px #10a3d7;
+.inPhoto {
+  width: 575px;
+  background-color: #10a3d7;
+  height: 125px;
+  border-radius: 10px;
+  position: absolute;
+  top: 1600px;
+  left: 390px;
+  box-shadow: 0px 0px 30px rgb(16, 163, 215);
+}
+.ampul {
+  border-radius: 50%;
+  padding: 25px 30px;
+
+  display: inline-block;
+  background: rgba(135, 218, 248, 0.5);
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+#iconampul {
+  color: white;
+  font-size: 50px;
+  position: relative;
+}
+.inPhotoTitle {
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: -80px;
+  left: 130px;
+  font-size: 30px;
+}
+.inPhotoText {
+  color: white;
+  position: relative;
+  top: -75px;
+  left: 130px;
+  font-size: 18px;
+  width: 400px;
+  font-family: sans-serif;
 }
 
-#iconampul{
-    color: white;
-    font-size: 70px;
-    position: relative;
-    left: 25px;
-    top: 20px;
+.againText {
+  color: white;
+  font-size: 32px;
+  width: 640px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 1300px;
+  left: 55vw;
 }
-.inPhotoTitle{
-    color: white;
-    position: relative;
-    top: -60px;
-    left: 130px;
-    font-size: 30px;
+.againText1 {
+  color: white;
+  width: 640px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 1400px;
+  left: 55vw;
+  font-size: 17px;
 }
-.inPhotoText{
-    color: white;
-    position: relative;
-    top: -50px;
-    left: 130px;
-    font-size: 20px;
-    width: 400px;
-}
-
-.againText{
-    color: white;
-    font-size: 32px;
-    width: 640px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    top: 1300px;
-    left: 55vw;
-}
-.againText1{
-    color: white;
-    width: 640px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    top: 1400px;
-    left: 55vw;
-    font-size: 17px;
-}
-.againText2{
-    color: white;
-    width: 640px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    top: 1500px;
-    left: 55vw;
-        font-size: 17px;
-
+.againText2 {
+  color: white;
+  width: 640px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 1500px;
+  left: 55vw;
+  font-size: 17px;
 }
 
-
-.Fundamental{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    top: 1600px;
-    left: 55vw;
+.Fundamental {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 1600px;
+  left: 55vw;
 }
 
-
-.firsttik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1670px;
-    left: 55vw;
+.firsttik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1670px;
+  left: 55vw;
 }
 
-#firsttikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#firsttikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.firsttiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.firsttiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
 }
-.ikincitik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1670px;
-    left:69vw;
+.ikincitik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1670px;
+  left: 69vw;
 }
 
-#ikincitikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#ikincitikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.ikincitiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.ikincitiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
 }
-.ucuncutik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1670px;
-    left:79vw;
+.ucuncutik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1670px;
+  left: 79vw;
 }
 
-#ucuncutikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#ucuncutikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.ucuncutiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.ucuncutiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
 }
-.dorduncutik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1780px;
-    left:55vw;
+.dorduncutik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1750px;
+  left: 55vw;
 }
 
-#dorduncutikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#dorduncutikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.dorduncutiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.dorduncutiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
 }
-.besincitik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1780px;
-    left:65vw;
+.besincitik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1750px;
+  left: 65vw;
 }
 
-#besincitikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#besincitikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.besincitiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.besincitiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
 }
-.altincitik{
-    display: inline-block;
-   padding: 10px;
-   padding-right: 90px;
-    background-color: #1c212d;
-    border-radius: 240px;
-    position: absolute;
-    top: 1780px;
-    left:75vw;
+.altincitik {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 90px;
+  background-color: #1c212d;
+  border-radius: 240px;
+  position: absolute;
+  top: 1750px;
+  left: 75vw;
 }
 
-#altincitikicon{
-    color: #10a3d7;
-    display: inline;
-    font-size: 28px;
-    position: relative;
-    top: 10px;
-    left: 20px;
-
-
+#altincitikicon {
+  color: #10a3d7;
+  display: inline;
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
-.altincitiktext{
-    color: white;
-    font-size: 20px;
-    position: relative;
-    left: 60px;
-    top: -15px;
+.altincitiktext {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+  top: -15px;
+}
+.card-part {
+  height: 450px;
+  width: 100vw;
+  background-color: #070d1a;
+}
+.allcard {
+  width: 930px;
+  height: 250px;
+  position: relative;
+  top: 70px;
+  left: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-color: #1c212d;
+  width: 216px;
+  height: 265px;
+  border-radius: 20px;
+}
+
+.circleCard {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(16, 163, 215, 0.2);
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 65px;
+  transition: all 0.8s ease;}
+.circleCard:hover {
+  transform: scale(1.2);
+}
+#cardicon {
+  font-size: 50px;
+  color: #10a3d7;
+  position: relative;
+  top: 14px;
+}
+.card1title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 50px;
+
+  position: relative;
+  top: 20px;
+  left: 65px;
+}
+.card1text {
+  color: rgb(110, 110, 110);
+  font-size: 24px;
+  position: relative;
+  top: 30px;
+  left: 43px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card2 {
+  background-color: #1c212d;
+  width: 216px;
+  height: 265px;
+  border-radius: 20px;
+}
+.circleCard2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(189, 125, 6, 0.2);
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 65px;
+  transition: all 0.8s ease;
+}
+.circleCard2:hover {
+  transform: scale(1.2);
+}
+#cardicon2 {
+  font-size: 50px;
+  color: rgb(189, 125, 6);
+  position: relative;
+  top: 14px;
+}
+.card2title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 50px;
+
+  position: relative;
+  top: 20px;
+  left: 65px;
+}
+.card2text {
+  color: rgb(110, 110, 110);
+  font-size: 24px;
+  position: relative;
+  top: 30px;
+  left: 65px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card3 {
+  background-color: #1c212d;
+  width: 216px;
+  height: 265px;
+  border-radius: 20px;
+}
+.circleCard3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(28, 207, 22, 0.2);
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 65px;
+  transition: all 0.8s ease;}
+.circleCard3:hover {
+  transform: scale(1.2);
+}
+#cardicon3 {
+  font-size: 50px;
+  color: rgba(28, 207, 22);
+  position: relative;
+  top: 14px;
+}
+.card3title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 50px;
+
+  position: relative;
+  top: 20px;
+  left: 45px;
+}
+.card3text {
+  color: rgb(110, 110, 110);
+  font-size: 24px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card4 {
+  background-color: #1c212d;
+  width: 216px;
+  height: 265px;
+  border-radius: 20px;
+}
+
+.circleCard4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(192, 22, 207, 0.2);
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 65px;
+  transition: all 0.8s ease;}
+.circleCard4:hover {
+  transform: scale(1.2);
+}
+#cardicon4 {
+  font-size: 50px;
+  color: rgb(192, 22, 207);
+  position: relative;
+  top: 14px;
+}
+.card4title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 50px;
+
+  position: relative;
+  top: 20px;
+  left: 73px;
+}
+.card4text {
+  color: rgb(110, 110, 110);
+  font-size: 24px;
+  position: relative;
+  top: 30px;
+  left: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

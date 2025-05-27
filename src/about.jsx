@@ -10,7 +10,9 @@ function About() {
       </p>
       <img className="aboutphoto" src={aboutphoto} alt="" />
       <div className="inPhoto">
-        <i id="iconampul" class="fa-regular fa-lightbulb"></i>
+        <div className="ampul">
+          <i id="iconampul" class="fa-regular fa-lightbulb"></i>
+        </div>
         <h5 className="inPhotoTitle">Our Purpose</h5>
         <p className="inPhotoText">
           Focus on delivering creative solutions that empower businesses to grow
