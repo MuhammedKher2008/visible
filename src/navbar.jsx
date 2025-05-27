@@ -8,12 +8,12 @@ function Navbar() {
           </a>
         </h2>
 
-        <a className="Nav-Item home" href="">home </a> 
-        <a className="Nav-Item about " href="">about </a>
-        <a className="Nav-Item services" href="">services</a>
-        <a className="Nav-Item protfolio" href="">protfolio</a>
-        <a className="Nav-Item team" href="">team</a>
-        <a className="Nav-Item contact" href="">contact</a>
+        <a className="Nav-Item home-nav" href="">home </a> 
+        <a className="Nav-Item about-nav " href="">about </a>
+        <a className="Nav-Item services-nav" href="">services</a>
+        <a className="Nav-Item protfolio-nav" href="">protfolio</a>
+        <a className="Nav-Item team-nav" href="">team</a>
+        <a className="Nav-Item contact-nav" href="">contact</a>
       </div>
     </nav>
   );

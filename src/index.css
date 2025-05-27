@@ -4,6 +4,9 @@
 
   padding: 0;
 }
+body {
+  overflow-x: hidden;
+}
 .navbar {
   background-color: #070d1a;
   width: 100vw;
@@ -500,7 +503,8 @@
   position: relative;
   top: 20px;
   left: 65px;
-  transition: all 0.8s ease;}
+  transition: all 0.8s ease;
+}
 .circleCard:hover {
   transform: scale(1.2);
 }
@@ -587,7 +591,8 @@
   position: relative;
   top: 20px;
   left: 65px;
-  transition: all 0.8s ease;}
+  transition: all 0.8s ease;
+}
 .circleCard3:hover {
   transform: scale(1.2);
 }
@@ -631,7 +636,8 @@
   position: relative;
   top: 20px;
   left: 65px;
-  transition: all 0.8s ease;}
+  transition: all 0.8s ease;
+}
 .circleCard4:hover {
   transform: scale(1.2);
 }
@@ -659,3 +665,407 @@
   left: 45px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.services {
+  background-color: #070d1a;
+  width: 100vw;
+  height: 1400px;
+}
+.titleservices {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 47%;
+}
+.arkaservices {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(51, 51, 59);
+  position: relative;
+  top: 50px;
+  left: 44%;
+}
+.servicesaciklama {
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: 30px;
+  left: 35%;
+}
+
+.servicesKutucuk {
+  display: inline;
+  padding: 10px 20px;
+  background-color: #10a3d7;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  font-family: sans-serif;
+}
+.servicestitle2 {
+  position: relative;
+  top: 140px;
+  left: 300px;
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+  width: 900px;
+}
+
+.servicestext {
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 180px;
+  left: 300px;
+  font-size: 20px;
+  width: 900px;
+}
+.servicestext2 {
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 220px;
+  left: 300px;
+  font-size: 20px;
+  width: 900px;
+}
+
+.serviceskutubg1 {
+  width: 310px;
+  height: 122px;
+  background-color: #10a3d7;
+  border-radius: 10px;
+  position: relative;
+  top: -180px;
+  left: 1300px;
+}
+.serviceskutu1 {
+  width: 310px;
+  height: 122px;
+  background-color: #1c212d;
+  border-radius: 10px;
+  position: relative;
+  top: -302px;
+  left: 1304px;
+}
+.serviceskutu1title {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.serviceskutu1text {
+  color: rgb(185, 185, 185);
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.serviceskutubg2 {
+  width: 310px;
+  height: 122px;
+  background-color: #10a3d7;
+  border-radius: 10px;
+  position: relative;
+  top: -280px;
+  left: 1300px;
+}
+.serviceskutu2 {
+  width: 310px;
+  height: 122px;
+  background-color: #1c212d;
+  border-radius: 10px;
+  position: relative;
+  top: -402px;
+  left: 1304px;
+}
+.serviceskutu2title {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.serviceskutu2text {
+  color: rgb(185, 185, 185);
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.serviceskutubg3 {
+  width: 310px;
+  height: 122px;
+  background-color: #10a3d7;
+  border-radius: 10px;
+  position: relative;
+  top: -380px;
+  left: 1300px;
+}
+.serviceskutu3 {
+  width: 310px;
+  height: 122px;
+  background-color: #1c212d;
+  border-radius: 10px;
+  position: relative;
+  top: -502px;
+  left: 1304px;
+}
+.serviceskutu3title {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.serviceskutu3text {
+  color: rgb(185, 185, 185);
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.services-card {
+  width: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -400px;
+  left: 170px;
+}
+.services-Card1 {
+  width: 355px;
+  height: 350px;
+  background-color: #1c212d;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+
+.services-card1-icon-box {
+  width: 65px;
+  height: 65px;
+  background: rgba(16, 163, 215, 0.2);
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 20px; 
+   transition: all 0.5s ease-in-out;
+
+}
+#services-card1-icon {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  left: 15.5px;
+  top: 7px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.services-card1-title {
+  color: white;
+  position: relative;
+  top: 75px;
+  left: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.services-card1-text {
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  width: 340px;
+  font-family: sans-serif;
+}
+
+.services-Card1:hover {
+  transform: translateY(-20px);
+  .services-card1-icon-box{
+    background-color: #10a3d7;
+  }
+  #services-card1-icon {
+    color: white;
+  }
+}
+
+.services-Card2 {
+  width: 355px;
+  height: 350px;
+  background-color: #1c212d;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+
+.services-card2-icon-box {
+  width: 65px;
+  height: 65px;
+  background: rgba(16, 163, 215, 0.2);
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 20px; 
+   transition: all 0.5s ease-in-out;
+
+}
+#services-card2-icon {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  left: 14px;
+  top: 8px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.services-card2-title {
+  color: white;
+  position: relative;
+  top: 75px;
+  left: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.services-card2-text {
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  width: 330px;
+  font-family: sans-serif;
+}
+
+.services-Card2:hover {
+  transform: translateY(-20px);
+  .services-card2-icon-box{
+    background-color: #10a3d7;
+  }
+  #services-card2-icon {
+    color: white;
+  }
+}
+.services-Card3 {
+  width: 355px;
+  height: 350px;
+  background-color: #1c212d;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+
+.services-card3-icon-box {
+  width: 65px;
+  height: 65px;
+  background: rgba(16, 163, 215, 0.2);
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 20px; 
+   transition: all 0.5s ease-in-out;
+
+}
+#services-card3-icon {
+  font-size: 40px;
+  color: #10a3d7;
+  position: relative;
+  left: 6.5px;
+  top: 9px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.services-card3-title {
+  color: white;
+  position: relative;
+  top: 75px;
+  left: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.services-card3-text {
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  width: 330px;
+  font-family: sans-serif;
+}
+
+.services-Card3:hover {
+  transform: translateY(-20px);
+  .services-card3-icon-box{
+    background-color: #10a3d7;
+  }
+  #services-card3-icon {
+    color: white;
+  }
+}
+.services-Card4 {
+  width: 355px;
+  height: 350px;
+  background-color: #1c212d;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+
+.services-card4-icon-box {
+  width: 65px;
+  height: 65px;
+  background: rgba(16, 163, 215, 0.2);
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 20px; 
+   transition: all 0.5s ease-in-out;
+
+}
+#services-card4-icon {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  left: 10.5px;
+  top: 7px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.services-card4-title {
+  color: white;
+  position: relative;
+  top: 75px;
+  left: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.services-card4-text {
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  width: 330px;
+  font-family: sans-serif;
+}
+
+.services-Card4:hover {
+  transform: translateY(-20px);
+  .services-card4-icon-box{
+    background-color: #10a3d7;
+  }
+  #services-card4-icon {
+    color: white;
+  }
+}
+
+
+
