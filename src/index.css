@@ -1136,21 +1136,20 @@ body {
 #shild-icon {
   font-size: 30px;
   position: relative;
-  top:10px;
+  top: 10px;
   left: 9px;
+  color: #070d1a;
 }
-.shild-title{
+.shild-title {
   color: white;
   position: relative;
   top: 250px;
   left: 420px;
-  font-size:28px;
+  font-size: 28px;
   font-family: sans-serif;
-
 }
 
-
-.shild-text{
+.shild-text {
   color: rgb(185, 185, 185);
   font-family: sans-serif;
   position: relative;
@@ -1164,31 +1163,542 @@ body {
   height: 50px;
   border-radius: 50%;
   position: relative;
-  left:600px;
+  left: 600px;
   top: 210px;
 }
 #clock-icon {
   font-size: 30px;
   position: relative;
-  top:10px;
+  top: 10px;
   left: 10px;
+  color: #070d1a;
 }
-.clock-title{
+.clock-title {
   color: white;
   position: relative;
   top: 150px;
   left: 680px;
-  font-size:28px;
+  font-size: 28px;
   font-family: sans-serif;
-
 }
 
-
-.clock-text{
+.clock-text {
   color: rgb(185, 185, 185);
   font-family: sans-serif;
   position: relative;
   top: 162px;
   font-size: 17px;
   left: 690px;
+}
+
+.features-card1-bg {
+  width: 330px;
+  height: 280px;
+  background-color: #10a3d7;
+  border-radius: 8px;
+  position: relative;
+  top: -340px;
+  left: 1000px;
+}
+
+.features-card1 {
+  background-color: #1c212d;
+  width: 330px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -620px;
+  left: 1005px;
+  transition: all 0.5s ease-in-out;
+}
+
+#shild-icon2 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card1-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card1-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 270px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card1-status {
+  background: rgba(25, 135, 84, 0.1);
+  color: rgb(25, 135, 84);
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card1-status-icon {
+  font-size: 10px;
+  position: relative;
+  top: 9px;
+  left: 30px;
+}
+.features-card1-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card1:hover {
+  transform: translateY(-10px);
+}
+
+.features-card2 {
+  background-color: #1c212d;
+  width: 330px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -900px;
+  left: 1355px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon2 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card2-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card2-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 270px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card2-status {
+  background: rgba(255, 159, 67, 0.1);
+  color: rgb(255, 159, 67);
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card2-status-icon {
+  font-size: 10px;
+  position: relative;
+  top: 9px;
+  left: 30px;
+}
+.features-card2-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card2:hover {
+  transform: translateY(-10px);
+}
+
+.features-card3 {
+  background-color: #1c212d;
+  width: 330px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -880px;
+  left: 1005px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon3 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card3-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card3-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 270px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card3-status {
+  background: rgba(25, 135, 84, 0.1);
+  color: rgb(25, 135, 84);
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card3-status-icon {
+  font-size: 10px;
+  position: relative;
+  top: 9px;
+  left: 30px;
+}
+.features-card3-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card3:hover {
+  transform: translateY(-10px);
+}
+.features-card4 {
+  background-color: #1c212d;
+  width: 330px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -1160px;
+  left: 1355px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon4 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card4-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card4-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 270px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card4-status {
+  background: rgba(108, 117, 125, 0.1);
+  color: rgb(108, 117, 125);
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card4-status-icon {
+  font-size: 10px;
+  position: relative;
+  top: 9px;
+  left: 30px;
+}
+.features-card4-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card4:hover {
+  transform: translateY(-10px);
+}
+
+.features-card5 {
+  background-color: #1c212d;
+  width: 430px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -1075px;
+  left: 355px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon5 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card5-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card5-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 370px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card5-status {
+  background: rgba(25, 135, 84, 0.1);
+  color: rgb(25, 135, 84);
+
+  width: 120px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card5-status-icon {
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.features-card5-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card5:hover {
+  transform: translateY(-10px);
+}
+
+
+
+.features-card6 {
+  background-color: #1c212d;
+  width: 430px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -1355px;
+  left: 820px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon6 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card6-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card6-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 370px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card6-status {
+  background: rgba(189, 125, 6,0.1);
+  color: rgb(189, 125, 6);
+
+  width: 120px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card6-status-icon {
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.features-card6-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card6:hover {
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.features-card7 {
+  background-color: #1c212d;
+  width: 430px;
+  height: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -1635px;
+  left: 1285px;
+  transition: all 0.5s ease-in-out;
+}
+
+#features-card-icon7 {
+  font-size: 45px;
+  color: #10a3d7;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.features-card7-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.features-card7-text {
+  font-size: 16px;
+  position: relative;
+  top: 77px;
+  left: 30px;
+  color: rgb(185, 185, 185);
+  width: 370px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.features-card7-status {
+  background: rgba(189, 125, 6,0.1);
+  color: rgb(189, 125, 6);
+
+  width: 120px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+#features-card7-status-icon {
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.features-card7-status-text {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-card7:hover {
+  transform: translateY(-10px);
 }
