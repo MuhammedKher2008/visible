@@ -1,7 +1,6 @@
 * {
   text-transform: capitalize;
   margin: 0;
-
   padding: 0;
 }
 body {
@@ -2459,7 +2458,7 @@ body {
   top: 50px;
   left: 44%;
 }
-.allpackage{
+.allpackage {
   width: 1365px;
   display: flex;
   justify-content: space-evenly;
@@ -2539,30 +2538,30 @@ body {
   font-family: sans-serif;
 }
 
-.Services-ul-pricing{
+.Services-ul-pricing {
   color: rgb(202, 202, 202);
   list-style: none;
   position: absolute;
   top: 400px;
   left: 20px;
-
 }
 
-
-#pricing-li-icon1 , #pricing-li-icon2 , #pricing-li-icon3{
-  color:#10a3d7;
+#pricing-li-icon1,
+#pricing-li-icon2,
+#pricing-li-icon3 {
+  color: #10a3d7;
   padding: 10px;
   font-size: 20px;
 }
 
-
-
-.Services-li-pricing1 , .Services-li-pricing2 , .Services-li-pricing3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.Services-li-pricing1,
+.Services-li-pricing2,
+.Services-li-pricing3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 10px;
 }
 
-.package1-button{
+.package1-button {
   width: 120px;
   height: 50px;
   border-radius: 40px;
@@ -2570,16 +2569,15 @@ body {
   top: 560px;
   left: -150px;
   background-color: rgba(16, 163, 215, 0.1);
-  border:none;
-  color:#10a3d7;
+  border: none;
+  color: #10a3d7;
   font-size: 20px;
 }
 
-
-.package2{
-   width: 415px;
+.package2 {
+  width: 415px;
   height: 639px;
-  background:rgba(28, 33, 45,0.7);
+  background: rgba(28, 33, 45, 0.7);
 
   border-radius: 30px;
   position: relative;
@@ -2589,7 +2587,6 @@ body {
   border: 1px solid #035877;
   z-index: 1;
 }
-
 
 .packege2-icon-div {
   width: 70px;
@@ -2632,7 +2629,7 @@ body {
   color: white;
   position: relative;
   top: 230px;
-  left:70px;
+  left: 70px;
   font-weight: bold;
   font-family: sans-serif;
 }
@@ -2654,30 +2651,30 @@ body {
   font-family: sans-serif;
 }
 
-.Services-ul-pricing2{
+.Services-ul-pricing2 {
   color: rgb(202, 202, 202);
   list-style: none;
   position: absolute;
   top: 400px;
   left: 20px;
-
 }
 
-
-#pricing-li-icon1 , #pricing-li-icon2 , #pricing-li-icon3{
-  color:#10a3d7;
+#pricing-li-icon1,
+#pricing-li-icon2,
+#pricing-li-icon3 {
+  color: #10a3d7;
   padding: 10px;
   font-size: 20px;
 }
 
-
-
-.Services-li-2-pricing1 , .Services-li-2-pricing2 , .Services-li-2-pricing3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.Services-li-2-pricing1,
+.Services-li-2-pricing2,
+.Services-li-2-pricing3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 10px;
 }
 
-.package2-button{
+.package2-button {
   width: 120px;
   height: 50px;
   border-radius: 40px;
@@ -2685,21 +2682,175 @@ body {
   top: 560px;
   left: -50px;
   background-color: #10a3d7;
-  border:none;
-  color:white;
+  border: none;
+  color: white;
   font-size: 20px;
 }
 
-
-.package2ustu{
+.package2ustu {
   width: 220px;
   height: 20px;
   color: white;
   background-color: #10a3d7;
   border-radius: 20px;
-  text-align:center;
+  text-align: center;
   top: 8670px;
   left: 870px;
   position: absolute;
   z-index: 2;
+}
+
+.questions {
+  height: 1200px;
+  background-color: #070d1a;
+}
+.titleQuestions {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 37%;
+}
+.arkaQuestions {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(51, 51, 59);
+  position: relative;
+  top: 50px;
+  left: 27%;
+}
+
+.photoquestions {
+  width: 530px;
+  height: 360px;
+  position: relative;
+  top: 150px;
+  left: 400px;
+}
+
+.assistance {
+  width: 460px;
+  height: 220px;
+  background-color: rgba(16, 163, 215, 0.1);
+  border-radius: 20px;
+  position: relative;
+  top: 170px;
+  left: 400px;
+}
+#assistanceicon {
+  color: #10a3d7;
+  font-size: 40px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.assistancetitle {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 90px;
+}
+
+.assitancetext {
+  color: rgb(221, 221, 221);
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+.assitance-btn {
+  background-color: #10a3d7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 240px;
+  height: 40px;
+  font-size: 20px;
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+
+.soruturu {
+  width: 150px;
+  height: 40px;
+  background-color: #10a3d7;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: -420px;
+  left: 1000px;
+
+  border-radius: 10px;
+  text-align: center;
+}
+
+.soruturu-div-h4 {
+  position: relative;
+  top: 10px;
+}
+.soruturu-h4-2 {
+  width: 150px;
+  height: 40px;
+  color: rgb(219, 219, 219);
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.soruturu2 {
+  width: 150px;
+  transition: all 0.5s linear;
+  position: relative;
+  top: -460px;
+  left: 1200px;
+}
+.soruturu2:hover {
+  background-color: rgba(28, 33, 45,0.5);
+  border-radius: 10px;
+}
+.soruturu3 {
+  width: 150px;
+  transition: all 0.5s linear;
+  position: relative;
+  top: -500px;
+  left: 1400px;
+}
+.soruturu3:hover {
+  background-color: rgba(28, 33, 45,0.5);
+  border-radius: 10px;
+}
+.soruturuciz{
+  position: relative;
+  top: -470px;
+  left: 1000px;
+  width: 600px;
+}
+
+
+.collapse1{
+  width: 600px;
+  height: 80px;
+  background-color: #131825;
+  border-radius: 10px;
+  position: relative;
+  top: -400px;
+  left: 1000px;
+  margin-bottom: 20px;
+}
+.collapse-1-title{
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+#collapse1-icon{
+  color: #10a3d7;
+  font-size:35px;
+  position: relative;
+  left: 93%;
 }
