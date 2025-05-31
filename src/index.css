@@ -2301,7 +2301,7 @@ body {
 
 .portfolio {
   background-color: #070d1a;
-  height: 2200px;
+  height: 1700px !important;
 }
 .titlePortfolio {
   color: white;
@@ -2438,4 +2438,268 @@ body {
   position: relative;
   left: 660px;
   top: 340px;
+}
+
+.pricing {
+  height: 1100px;
+  background-color: #070d1a;
+}
+.titlepricing {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 47%;
+}
+.arkapricing {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(51, 51, 59);
+  position: relative;
+  top: 50px;
+  left: 44%;
+}
+.allpackage{
+  width: 1365px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -10px;
+}
+.package1 {
+  width: 415px;
+  height: 639px;
+  background-color: #1c212d;
+  border-radius: 30px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  display: flex;
+}
+
+.packege1-icon-div {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(16, 163, 215, 0.2);
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+  left: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#packege1-icon {
+  color: #10a3d7;
+  font-size: 40px;
+}
+
+.package1-title {
+  position: relative;
+  top: 160px;
+  font-size: 30px;
+  left: 75px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.dolarsembol1 {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 230px;
+  left: -30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.price1 {
+  font-size: 65px;
+  color: white;
+  position: relative;
+  top: 230px;
+  left: -25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.duration1 {
+  color: grey;
+  font-family: sans-serif;
+  position: relative;
+  top: 275px;
+  left: -20px;
+}
+.package-1-text {
+  position: absolute;
+  top: 340px;
+  left: 40px;
+  text-align: center;
+  color: rgb(219, 219, 219);
+  width: 350px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.Services-ul-pricing{
+  color: rgb(202, 202, 202);
+  list-style: none;
+  position: absolute;
+  top: 400px;
+  left: 20px;
+
+}
+
+
+#pricing-li-icon1 , #pricing-li-icon2 , #pricing-li-icon3{
+  color:#10a3d7;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+.Services-li-pricing1 , .Services-li-pricing2 , .Services-li-pricing3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.package1-button{
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  position: relative;
+  top: 560px;
+  left: -150px;
+  background-color: rgba(16, 163, 215, 0.1);
+  border:none;
+  color:#10a3d7;
+  font-size: 20px;
+}
+
+
+.package2{
+   width: 415px;
+  height: 639px;
+  background:rgba(28, 33, 45,0.7);
+
+  border-radius: 30px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  display: flex;
+  border: 1px solid #035877;
+  z-index: 1;
+}
+
+
+.packege2-icon-div {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(16, 163, 215, 0.2);
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+  left: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#packege2-icon {
+  color: #10a3d7;
+  font-size: 40px;
+}
+
+.package2-title {
+  position: absolute;
+  top: 160px;
+  font-size: 30px;
+  left: 135px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.dolarsembol2 {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 230px;
+  left: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.price2 {
+  font-size: 65px;
+  color: white;
+  position: relative;
+  top: 230px;
+  left:70px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.duration2 {
+  color: grey;
+  font-family: sans-serif;
+  position: relative;
+  top: 275px;
+  left: 80px;
+}
+.package-2-text {
+  position: absolute;
+  top: 340px;
+  left: 40px;
+  text-align: center;
+  color: rgb(219, 219, 219);
+  width: 350px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.Services-ul-pricing2{
+  color: rgb(202, 202, 202);
+  list-style: none;
+  position: absolute;
+  top: 400px;
+  left: 20px;
+
+}
+
+
+#pricing-li-icon1 , #pricing-li-icon2 , #pricing-li-icon3{
+  color:#10a3d7;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+.Services-li-2-pricing1 , .Services-li-2-pricing2 , .Services-li-2-pricing3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.package2-button{
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  position: relative;
+  top: 560px;
+  left: -50px;
+  background-color: #10a3d7;
+  border:none;
+  color:white;
+  font-size: 20px;
+}
+
+
+.package2ustu{
+  width: 220px;
+  height: 20px;
+  color: white;
+  background-color: #10a3d7;
+  border-radius: 20px;
+  text-align:center;
+  top: 8670px;
+  left: 870px;
+  position: absolute;
+  z-index: 2;
 }

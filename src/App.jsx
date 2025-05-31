@@ -5,6 +5,7 @@ import Card from "./card";
 import Services from "./services";
 import Features from "./features";
 import Portfolio from "./portfolio";
+import Pricing from "./pricing";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Features />
       <Portfolio />
+      <Pricing />
     </>
   );
 }
