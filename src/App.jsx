@@ -7,7 +7,7 @@ import Features from "./features";
 import Portfolio from "./portfolio";
 import Pricing from "./pricing";
 import Questions from "./questions";
-
+import Team from "./team";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Portfolio />
       <Pricing />
       <Questions />
+      <Team />
     </>
   );
 }

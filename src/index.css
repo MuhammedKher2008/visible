@@ -2807,7 +2807,7 @@ body {
   left: 1200px;
 }
 .soruturu2:hover {
-  background-color: rgba(28, 33, 45,0.5);
+  background-color: rgba(28, 33, 45, 0.5);
   border-radius: 10px;
 }
 .soruturu3 {
@@ -2818,18 +2818,17 @@ body {
   left: 1400px;
 }
 .soruturu3:hover {
-  background-color: rgba(28, 33, 45,0.5);
+  background-color: rgba(28, 33, 45, 0.5);
   border-radius: 10px;
 }
-.soruturuciz{
+.soruturuciz {
   position: relative;
   top: -470px;
   left: 1000px;
   width: 600px;
 }
 
-
-.collapse1{
+.collapse1 {
   width: 600px;
   height: 80px;
   background-color: #131825;
@@ -2839,7 +2838,7 @@ body {
   left: 1000px;
   margin-bottom: 20px;
 }
-.collapse-1-title{
+.collapse-1-title {
   color: white;
   font-family: sans-serif;
   font-size: 17px;
@@ -2848,9 +2847,111 @@ body {
   left: 40px;
 }
 
-#collapse1-icon{
+#collapse1-icon {
   color: #10a3d7;
-  font-size:35px;
+  font-size: 35px;
   position: relative;
   left: 93%;
+}
+.Team {
+  height: 1000px;
+  background-color: #070d1a;
+}
+
+.teamTitle {
+  position: relative;
+  left: 300px;
+  font-size: 35px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.team-cizgi {
+  width: 70px;
+  height: 4px;
+  background-color: #10a3d7;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  left: 300px;
+}
+
+.teamtext {
+  width: 600px;
+  color: rgb(201, 199, 199);
+  position: relative;
+  top: 50px;
+  left: 300px;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.yonverme {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(0, 0, 0, 0);
+  color: #10a3d7;
+  border-radius: 50%;
+  border: 1px solid #10a3d7;
+  font-size: 25px;
+  position: relative;
+  left: 1600px;
+}
+.yonverme2 {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(0, 0, 0, 0);
+  color: #10a3d7;
+  border-radius: 50%;
+  border: 1px solid #10a3d7;
+  font-size: 25px;
+  position: relative;
+  left: 1500px;
+}
+
+.allperson{
+  position: relative;
+  top: 100px;
+  left: 280px;
+  width: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.person1-card {
+  height: 520px;
+  width: 340px;
+  background-color: #1c212d;
+  border-radius: 15px;
+  
+}
+
+#person1photo {
+  width: 340px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.person1-name {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.person1-task {
+  color: #10a3d7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+
+.person1-text{
+  color: rgb(225,225,225);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 290px;
+  position: relative;
+  top: 40px;
+  left: 30px;
 }
