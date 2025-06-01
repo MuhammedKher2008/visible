@@ -8,6 +8,7 @@ import Portfolio from "./portfolio";
 import Pricing from "./pricing";
 import Questions from "./questions";
 import Team from "./team";
+import Contact from "./contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Pricing />
       <Questions />
       <Team />
+      <Contact />
     </>
   );
 }

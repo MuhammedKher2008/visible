@@ -2854,7 +2854,7 @@ body {
   left: 93%;
 }
 .Team {
-  height: 1000px;
+  height: 900px;
   background-color: #070d1a;
 }
 
@@ -2909,7 +2909,7 @@ body {
   left: 1500px;
 }
 
-.allperson{
+.allperson {
   position: relative;
   top: 100px;
   left: 280px;
@@ -2922,7 +2922,6 @@ body {
   width: 340px;
   background-color: #1c212d;
   border-radius: 15px;
-  
 }
 
 #person1photo {
@@ -2947,11 +2946,318 @@ body {
   left: 30px;
 }
 
-.person1-text{
-  color: rgb(225,225,225);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.person1-text {
+  color: rgb(225, 225, 225);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 290px;
   position: relative;
   top: 40px;
   left: 30px;
+}
+
+.Contact {
+  height: 1500px;
+  background-color: #070d1a;
+}
+
+.titleContact {
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 47%;
+}
+.arkaContact {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(51, 51, 59);
+  position: relative;
+  top: 65px;
+  left: 44%;
+}
+
+.Contact-Information {
+  height: 920px;
+  width: 475px;
+  background-color: #10a3d7;
+  border-radius: 25px;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+
+.contact-information-title {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+.contact-information-text {
+  color: rgb(219, 219, 219);
+  position: relative;
+  top: 70px;
+  left: 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.location-div {
+  width: 370px;
+  height: 90px;
+  background-color: rgb(25, 175, 230);
+  border-radius: 15px;
+  position: relative;
+  top: 140px;
+  left: 50px;
+  transition: all 0.3s linear;
+}
+.location-div:hover{
+  transform: translateY(-10px);
+
+}
+#location-icon {
+  padding: 20px 25px;
+  background-color: #3abff0;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+}
+
+.location-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -35px;
+  left: 120px;
+}
+.thelocation {
+  width: 300px;
+  color: rgb(241, 241, 241);
+  position: relative;
+  top: -25px;
+  left: 120px;
+  font-family: sans-serif;
+}
+.email-div {
+  width: 370px;
+  height: 90px;
+  background-color: rgb(25, 175, 230);
+  border-radius: 15px;
+  position: relative;
+  top: 170px;
+  left: 50px;
+  transition: all 0.3s linear;
+}
+.email-div:hover{
+  transform: translateY(-10px);
+
+}
+#email-icon {
+  padding: 20px 25px;
+  background-color: #3abff0;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+}
+.email-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -35px;
+  left: 120px;
+}
+.theemail {
+  width: 300px;
+  color: rgb(241, 241, 241);
+  position: relative;
+  top: -25px;
+  left: 120px;
+  font-family: sans-serif;
+}
+.call-div {
+  width: 370px;
+  height: 90px;
+  background-color: rgb(25, 175, 230);
+  border-radius: 15px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+    transition: all 0.3s linear;
+}
+.call-div:hover{
+  transform: translateY(-10px);
+
+}
+#call-icon {
+  padding: 20px 25px;
+  background-color: #3abff0;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+}
+.call-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -35px;
+  left: 120px;
+}
+.thecall {
+  width: 300px;
+  color: rgb(241, 241, 241);
+  position: relative;
+  top: -25px;
+  left: 120px;
+  font-family: sans-serif;
+}
+.working-div {
+  width: 370px;
+  height: 90px;
+  background-color: rgb(25, 175, 230);
+  border-radius: 15px;
+  position: relative;
+  top: 230px;
+  left: 50px;
+   transition: all 0.3s linear;
+}
+.working-div:hover{
+  transform: translateY(-10px);
+
+}
+#working-icon {
+  padding: 20px 25px;
+  background-color: #3abff0;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+}
+.working-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -35px;
+  left: 120px;
+}
+.theworking {
+  width: 300px;
+  color: rgb(241, 241, 241);
+  position: relative;
+  top: -25px;
+  left: 120px;
+  font-family: sans-serif;
+}
+
+.followus {
+  color: white;
+  position: relative;
+  top: 360px;
+  font-family: sans-serif;
+  font-size: 20px;
+  left: 60px;
+}
+
+.facebook1 {
+  position: relative;
+  top: 365px;
+  left: 60px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgb(62, 179, 221);
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+}
+
+#map {
+  position: relative;
+  top: -770px;
+  left: 730px;
+  width: 900px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.message {
+  height: 630px;
+  width: 900px;
+  background-color: #171a22;
+  border-radius: 30px;
+  position: relative;
+  top: -740px;
+  left: 730px;
+}
+.messageTitle {
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 60px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.messageText {
+  color: rgb(219, 219, 219);
+  position: relative;
+  top: 60px;
+  left: 60px;
+  font-family: sans-serif;
+}
+.fullname {
+  width: 700px;
+  height: 60px;
+  background-color: #171a22;
+  border: 2px solid #384053;
+  position: relative;
+  top: 70px;
+  left: 60px;
+  border-radius: 20px;
+  padding-left: 30px;
+
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#themessage {
+  width: 700px;
+  height: 90px;
+  border: 2px solid #384053;
+  border-radius: 20px;
+  background-color: #171a22;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.sendbutton {
+  position: relative;
+  left: 60px;
+  top: 130px;
+  background-color: #10a3d7;
+  border-radius: 20px;
+
+  border: none;
+
+  width: 730px;
+  height: 50px;
+  color:white;
+  font-family: sans-serif;
+  font-size: 20px;
 }
