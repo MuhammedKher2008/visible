@@ -2956,7 +2956,7 @@ body {
 }
 
 .Contact {
-  height: 1500px;
+  height: 1300px;
   background-color: #070d1a;
 }
 
@@ -3013,9 +3013,8 @@ body {
   left: 50px;
   transition: all 0.3s linear;
 }
-.location-div:hover{
+.location-div:hover {
   transform: translateY(-10px);
-
 }
 #location-icon {
   padding: 20px 25px;
@@ -3053,9 +3052,8 @@ body {
   left: 50px;
   transition: all 0.3s linear;
 }
-.email-div:hover{
+.email-div:hover {
   transform: translateY(-10px);
-
 }
 #email-icon {
   padding: 20px 25px;
@@ -3090,11 +3088,10 @@ body {
   position: relative;
   top: 200px;
   left: 50px;
-    transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-.call-div:hover{
+.call-div:hover {
   transform: translateY(-10px);
-
 }
 #call-icon {
   padding: 20px 25px;
@@ -3129,11 +3126,10 @@ body {
   position: relative;
   top: 230px;
   left: 50px;
-   transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-.working-div:hover{
+.working-div:hover {
   transform: translateY(-10px);
-
 }
 #working-icon {
   padding: 20px 25px;
@@ -3257,7 +3253,207 @@ body {
 
   width: 730px;
   height: 50px;
-  color:white;
+  color: white;
   font-family: sans-serif;
   font-size: 20px;
+}
+
+.Footer {
+  height: 500px ;
+  background-color: #070d1a;
+}
+.cizgi {
+  width: 1450px;
+  height: 2px;
+  background-color: #1c212d;
+  position: relative;
+  left: 200px;
+}
+
+.footerbrand {
+  color: white;
+  font-family: sans-serif;
+
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  left: 210px;
+  font-size: 40px;
+}
+
+.footertext {
+  color: rgb(219, 219, 219);
+  width: 600px;
+  position: relative;
+  top: 70px;
+  left: 210px;
+  font-family: sans-serif;
+}
+.logo1 {
+  padding: 10px 13px;
+  background-color: #070d1a;
+  color: #323a4d;
+  border-radius: 50%;
+  border: 1px solid;
+
+  font-size: 25px;
+  position: relative;
+  top: 100px;
+  left: 190px;
+  margin-left: 20px;
+}
+
+.footer-list-title1 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top: -100px;
+  left: 900px;
+}
+.footer-list-1 {
+  list-style: none;
+}
+.footer-list1-li {
+  color: rgb(219, 219, 219);
+  font-size: 17px;
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 880px;
+  top: -100px;
+  transition: color 0.2s linear;
+}
+
+.footer-list1-li:hover {
+  color: #10a3d7;
+}
+.footer-list-title2 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top: -340px;
+  left: 1150px;
+}
+.footer-list-2 {
+  list-style: none;
+}
+.footer-list2-li {
+  color: rgb(219, 219, 219);
+  font-size: 17px;
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 13050px;
+  left: 1130px;
+  transition: color 0.2s linear;
+}
+.list-2-1{
+  position: absolute;
+  top: 12975px;
+}
+.list-2-2{
+  position: absolute;
+  top: 13015px;
+}
+.list-2-3{
+  position: absolute;
+  top: 13055px;
+}
+.list-2-4{
+  position: absolute;
+  top: 13095px;
+}
+.list-2-5{
+  position: absolute;
+  top: 13135px;
+}
+
+.footer-list2-li:hover {
+  color: #10a3d7;
+}
+.footer-list-title3 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  position: absolute;
+  top: 12960px;
+  left: 1400px;
+}
+.footer-list-3 {
+  list-style: none;
+}
+.footer-list3-li {
+  color: rgb(219, 219, 219);
+  font-size: 17px;
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -580px;
+  left: 1380px;
+  transition: color 0.2s linear;
+  width: 150px;
+}
+
+.footer-list3-li:hover {
+  color: #10a3d7;
+}
+
+.street,
+.city,
+.country {
+  color: white;
+  position: absolute;
+  top: 13000px;
+  left: 1400px;
+  font-family: sans-serif;
+}
+.city {
+  top: 13025px;
+}
+
+.country {
+  top: 13050px;
+}
+
+.footer-phone {
+  color: white;
+  position: absolute;
+  top: 13120px;
+  left: 1400px;
+  font-family: sans-serif;
+}
+.footer-email {
+  color: white;
+  position: absolute;
+  top: 13150px;
+  left: 1400px;
+  font-family: sans-serif;
+}
+.copyright-div {
+  background-color:#131825;
+  width: 1500px;
+  height: 100px;
+  position: absolute;
+  top: 13250px;
+  left: 200px;
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.copyright-text1{
+  position: relative;
+  top: 25%;
+}
+.copyright-text2{
+  position: relative;
+  top: 30%;
+}
+
+.sonlink{
+  text-decoration: none;
+  color:#10a3d7;
 }

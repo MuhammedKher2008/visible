@@ -9,6 +9,7 @@ import Pricing from "./pricing";
 import Questions from "./questions";
 import Team from "./team";
 import Contact from "./contact";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Questions />
       <Team />
       <Contact />
+      <Footer />
     </>
   );
 }
